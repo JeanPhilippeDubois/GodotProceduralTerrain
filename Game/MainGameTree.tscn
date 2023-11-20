@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjkk2hcq1ui1"]
+
+[ext_resource type="PackedScene" uid="uid://0frpcje1cifd" path="res://Generators/World/ProceduralTerrainWorld.tscn" id="1_ddq4v"]
+
+[node name="MainGameTree" type="Node"]
+
+[node name="ProceduralGenerator" parent="." instance=ExtResource("1_ddq4v")]
