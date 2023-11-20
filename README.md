@@ -1,13 +1,16 @@
 # GodotProceduralTerrain
 
-In this Godot 4++ project, the utilization of the newly integrated FastNoiseLite API facilitates the dynamic generation of terrain through the experimentation of diverse noise generation methods employing various equations. 
+In this Godot 4++ project, we harness the power of the recently integrated FastNoiseLite API to dynamically generate terrain through the exploration of diverse noise generation methods, incorporating equations such as Perlin and Simplex.
 
-The codebase serves as a testing ground for evaluating noise generation functions, providing a framework to choose a noise function and port the code seamlessly into C# or C++ to optimize the performance via threading or other means.
+The project provides a flexible framework for choosing a noise function and seamlessly porting the code into C# or C++ for performance optimization, leveraging threading and other means.
 
+Furthermore, the generation of clouds is done through a noise map image, resulting in the creation of realistic volumetric clouds that move dynamically in real-time.
 
-Thank you for downloading and taking time to look at the project, it's appreciated.
+Your interest is greatly appreciated, and we thank you for taking the time to explore this project.
 
-Feel free to make changes and send a pull request.
+Feel free to download, make changes, and contribute by submitting pull requests. 
+
+Your collaboration is invaluable!
 
 ---
 
